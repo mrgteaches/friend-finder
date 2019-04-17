@@ -1,8 +1,8 @@
 // Data structure that will store the friends data
-var friendsArray = [
+var friends = [
 	{
-		name: 'Scooter',
-		photo: 'http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-15.jpg',
+		name: 'John',
+		photo: "https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358__340.jpg",
 		scores: [
 			'1',
 			'5',
@@ -17,8 +17,8 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Fluffy',
-		photo: 'https://i.ytimg.com/vi/mRf3-JkwqfU/hqdefault.jpg',
+		name: 'Doug',
+		photo: 'https://cdn.pixabay.com/photo/2017/02/04/12/25/man-2037255__340.jpg',
 		scores: [
 			'2',
 			'4',
@@ -34,7 +34,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Spencer',
-		photo: 'http://cdn3-www.cattime.com/assets/uploads/2011/08/best-kitten-names-1.jpg',
+		photo: 'https://cdn.pixabay.com/photo/2016/11/29/09/32/concept-1868728__340.jpg',
 		scores: [
 			'4',
 			'3',
@@ -49,8 +49,8 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Zackariah',
-		photo: 'https://pbs.twimg.com/profile_images/562466745340817408/_nIu8KHX.jpeg',
+		name: 'Obadiah',
+		photo: 'https://cdn.pixabay.com/photo/2014/07/31/23/49/guitarist-407212__340.jpg',
 		scores: [
 			'5',
 			'1',
@@ -66,7 +66,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Cloe',
-		photo: 'http://4.bp.blogspot.com/-HTvSYzA-pO4/UgQb4Zh_u0I/AAAAAAAAEuI/XwhtogT_1tA/s1600/3+cute2.jpg',
+		photo: 'https://cdn.pixabay.com/photo/2017/03/17/04/07/beautiful-2150881__340.jpg',
 		scores: [
 			'1',
 			'1',
@@ -81,8 +81,8 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Mrs. Piggy',
-		photo: 'http://img.mindbodygreen.com/image/upload/c_limit,w_738,f_auto/ftr/Miss-Piggy-large-tonya-312.jpg',
+		name: 'Mrs. Akila',
+		photo: 'https://cdn.pixabay.com/photo/2014/12/20/19/18/old-woman-574278__340.jpg',
 		scores: [
 			'1',
 			'1',
@@ -97,8 +97,8 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Beyonce Knowles',
-		photo: 'http://www.billboard.com/files/styles/article_main_image/public/media/beyonce-feb-2014-billboard-650.jpg',
+		name: 'Piggy',
+		photo: 'https://cdn.pixabay.com/photo/2017/10/25/19/45/piggy-bank-2889042__340.jpg',
 		scores: [
 			'5',
 			'4',
@@ -113,8 +113,8 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Adele Adkins',
-		photo: 'https://i1.imgiz.com/data/videoshots/6829/6829475-6461.jpg',
+		name: 'Wise Dog',
+		photo: 'https://cdn.pixabay.com/photo/2015/06/08/15/02/pug-801826__340.jpg',
 		scores: [
 			'5',
 			'2',
@@ -162,4 +162,4 @@ var friendsArray = [
 	}
 ];
 
-module.exports = friendsArray;
+module.exports = friends;

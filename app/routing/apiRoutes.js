@@ -2,11 +2,11 @@
 // var path = require('path');
 
 // Import the list of friend entries
-var friends = require('../data/friends.js');
+var friends = require('../data/friends');
 
 // Export API routes
 module.exports = function(app) {
-	// console.log('___ENTER apiRoutes.js___');
+	console.log('___ENTER apiRoutes.js___');
 
 	// Total list of friend entries
 	app.get('/api/friends', function(req, res) {
@@ -17,10 +17,11 @@ module.exports = function(app) {
 	app.post('/api/friends', function(req, res) {
 		// Capture the user input object
 		var userInput = req.body;
-		// console.log('userInput = ' + JSON.stringify(userInput));
+		require(path.join(__dirname, './app/routing/apiRoutes'))(app);
+		require(path.join(__dirname, './app/routing/htmlRoutes'))(app);
 
 		var userResponses = userInput.scores;
-		// console.log('userResponses = ' + userResponses);
+		console.log('userResponses = ' + userResponses);
 
 		// Compute best friend match
 		var matchName = '';
