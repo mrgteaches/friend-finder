@@ -15,8 +15,8 @@ module.exports = function(app) {
 	app.post('/api/friends', function(req, res) {
 		// Capture the user input object
 		var userInput = req.body;
-		require(path.join(__dirname, './app/routing/apiRoutes'))(app);
-		require(path.join(__dirname, './app/routing/htmlRoutes'))(app);
+		// require(path.join(__dirname, './app/routing/apiRoutes'))(app);
+		// require(path.join(__dirname, './app/routing/htmlRoutes'))(app);
 
 		var userResponses = userInput.scores;
 		console.log('userResponses = ' + userResponses);

@@ -29,7 +29,7 @@
 	<header>
 		<nav>
 			<div class="nav-wrapper blue accent-2">
-				<i class="fa fa-address-book-o fa-5x" aria-hidden="true" id=logo-icon></i>
+				<!-- <i class="fa fa-address-book-o fa-5x" aria-hidden="true" id=logo-icon></i> -->
 				<a href="/" class="brand-logo" id="logo">Friend Finder</a>
 				<ul class="right hide-on-med-and-down" id="head-nav-links">
 					<li><a href="/survey">Survey</a></li>
@@ -52,13 +52,11 @@
 
 						<div class="input-field col s6">
 							<h5>Name (Required)</h5>
-							<!-- <i class="material-icons prefix">account_circle</i> -->
 							<input type="text" class="validate" placeholder="Your Name Here" id="userName">
 						</div>
 
 						<div class="input-field col s6">
 							<h5>Link to Photo Image (Required)</h5>
-							<!-- <i class="material-icons prefix">picture_in_picture</i> -->
 							<input type="text" class="validate" placeholder="Photo Link Here" id="userPhoto">
 						</div>
 
@@ -67,7 +65,7 @@
 							<h3>Question 1</h3>
 							<h5>Your mind is always buzzing with unexplored ideas and plans.</h5>
 							<select id="question1">
-								<option value="" disabled selected>Choose your option</option>
+								<option value="" disable selected>Choose your option</option>
 								<option value="1">1 (Strongly Disagree)</option>
 								<option value="2">2</option>
 								<option value="3">3</option>
@@ -233,8 +231,9 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('select').material_select();
+			// $('select').formSelect();
 			$('.modal').modal({
-				dismissible: false, // Modal can be dismissed by clicking outside of the modal
+				dismissible: true, // Modal can be dismissed by clicking outside of the modal
 				opacity: .5, // Opacity of modal background
 				inDuration: 300, // Transition in duration
 				outDuration: 200, // Transition out duration
